@@ -9,16 +9,16 @@
 
 ## Define model and checkpoint.
     
-    These example use 
+These example use 
+
+`<model_type> = ‘default’` , 
+
+`<path/to/checkpoint> = ./sam_vit_h_4b8939.pth`
     
-    `<model_type> = ‘default’` , 
-    
-    `<path/to/checkpoint> = ./sam_vit_h_4b8939.pth`
-    
-    ```python
-    from segment_anything import sam_model_registry
-    sam = sam_model_registry["<model_type>"](checkpoint="<path/to/checkpoint>")
-    ```
+```python
+from segment_anything import sam_model_registry
+sam = sam_model_registry["<model_type>"](checkpoint="<path/to/checkpoint>")
+```
     
 
 ## Using SAM
