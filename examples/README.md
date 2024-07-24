@@ -67,6 +67,43 @@ mask_generator = SamAutomaticMaskGenerator(
 masks = mask_generator.generate(image_rgb)
 ```
 
+## Tree
+
+- segment_anything
+    - modeling
+        - sam
+            - **class Sam**
+        - image_encoder
+            - **class ImageEncoderViT**
+            - class Block
+            - class Attention
+            - class PatchEmbed
+        - mask_decoder
+            - **class MaskDecoder**
+            - class MLP
+        - prompt_encoder
+            - **class PromptEncoder**
+            - class PositionEmbeddingRandom
+        - transformer
+            - **class TwoWayTransformer**
+            - class TwoWayAttentionBlock
+            - class Attention
+        - common
+            - class MLPBlock
+            - class LayerNorm2d
+    - utils
+        - amg
+        - onnx
+        - transforms
+    - build_sam
+        - **class build_sam**
+        - class build_sam_vit_h
+        - …
+    - predictor
+        - **class SamPredictor**
+    - automatic_mask_generator
+        - **class SamAutomaticMaskGenerator**
+
 ## Examples
 
 ### one_point_prompt
