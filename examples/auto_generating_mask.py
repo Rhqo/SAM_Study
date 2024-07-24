@@ -1,7 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
-from segment_anything import sam_model_registry, SamAutomaticMaskGenerator
+from segment_anything.build_sam import sam_model_registry
+from segment_anything.automatic_mask_generator import SamAutomaticMaskGenerator
 
 # define annotation
 def show_anns(anns):

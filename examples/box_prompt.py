@@ -1,8 +1,9 @@
-from segment_anything import SamPredictor, sam_model_registry
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 import torch
+from segment_anything.build_sam import sam_model_registry
+from segment_anything.predictor import SamPredictor
 
 IMAGE_PATH = '../image.jpg'
 image_bgr = cv2.imread(IMAGE_PATH)
