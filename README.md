@@ -272,15 +272,7 @@ Data engine으로부터 1.1B의 mask를 생성했고, 99.1%는 fully automatic �
 
 ![Untitled](./images/4.png)
 
-## 7. Zero-shot Transfer Experiments
 
-### **7.1 Zero-shot single point valid mask evaluation**
-
-### **7.2 Zero-shot Edge Detection**
-
-### **7.3 Zero-shot Object Proposals**
-
-### **7.4 Zero-shot Instance Segmentation**
 
 ### **7.5 Zero-shot Text-to-Mask**
 
